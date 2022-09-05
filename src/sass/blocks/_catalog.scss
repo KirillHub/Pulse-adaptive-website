@@ -214,14 +214,17 @@
 						margin-bottom: 75px;
 					}
 
-					&::before{
-						content: "";
-						width: 5px;
-						height: 5px;
-						background: #C70101;
-						position: absolute;
-						left: -10px;
-						top: 7px;
+					&:not(:last-child){
+						&::before{
+							content: "";
+							width: 5px;
+							height: 5px;
+							background: #C70101;
+							position: absolute;
+							left: -10px;
+							top: 7px;
+							
+						}
 					}
 				}
 			}
