@@ -1,0 +1,50 @@
+
+//import _scss files (_nullstyle)
+@import 'base/mixins';
+@import 'base/variables';
+
+// fonts and null-style
+@import "base/fonts";
+@import "null-style/nullstyle";
+
+
+//libs/animation
+@import "libs/animate";
+
+// main body-container settings
+.container{
+	position: relative;
+	max-width: 950px;
+	padding: 0 15px;
+	margin: 0 auto;
+	box-sizing: content-box;
+}
+
+// blocks(modules):
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/benefits";
+@import "blocks/consultation";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/customer-reviews";
+@import "blocks/footer";
+
+// _buttons style:
+@import "blocks/buttons";
+
+// titles:
+@import "blocks/titles";
+
+// forms:
+@import "blocks/forms";
+
+// overlay:
+@import "blocks/modol";
+
+//scroll animation (svg):
+@import "blocks/pageup";
+
+
+// css animation:
+@import "base/animations";

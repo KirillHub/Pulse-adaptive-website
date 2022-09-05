@@ -1,0 +1,147 @@
+.benefits {
+	padding: 71px 0 65px 0;
+	min-height: 470px;
+	background-color: #F6F6F6;
+	margin: 0 auto;
+
+	&__title{
+		text-align: center;
+		height: 30px;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 30px;
+		margin-bottom: 60px;
+
+		@media (max-width: 992px){
+			margin-bottom: 30px;
+		}
+		@media (max-width: 576px){
+			margin-bottom: 15px;
+		}
+		@media (max-width: 400px){
+			margin-bottom: 45px;
+		}
+	}
+
+	&__body{
+		display: flex;
+		flex: 0 0 33.33%;
+		justify-content: space-between;
+		max-width: 945px;
+		margin: 0 auto;
+
+		@media (max-width: 992px){
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+
+	@media (max-width: 992px){
+		padding: 30px 0 30px 0;
+	}
+}
+
+
+.column__block{
+	font-weight: 300;
+	line-height: 18px;
+	text-align: center;
+	max-width: 270px;
+
+	@media (max-width: 992px){
+		&:not(:last-child){
+			margin: 0 0 15px 0;
+		}
+	}
+}
+
+.experience{
+	padding: 0 10px;
+	&__title_img{
+		margin-bottom: 30px;
+
+		@media (max-width: 576px){
+			margin-bottom: 10px;
+		}
+	}
+ &__title{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 29px;
+	color: #0D0D0D;
+	margin-bottom: 20px;
+
+	@media (max-width: 576px){
+		margin-bottom: 10px;
+	}
+ }
+}
+.health{
+	padding: 0 10px;
+	&__title_img{
+		margin-bottom: 30px;
+
+		@media (max-width: 576px){
+			margin-bottom: 10px;
+		}
+	}
+	&__title{
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 29px;
+		color: #0D0D0D;
+		margin-bottom: 20px;
+
+		@media (max-width: 576px){
+			margin-bottom: 10px;
+		}
+	}
+
+	&__icon{
+		&_animated{
+			animation-name: heartbeat;
+			animation-duration: 1.5s;
+			animation-timing-function: ease;
+			animation-iteration-count: infinite;
+
+			&:hover{
+				animation-play-state: paused;
+			}
+		}
+	}
+}
+.learn-run{
+	padding: 0 10px;
+	&__title_img{
+		margin-bottom: 30px;
+
+		@media (max-width: 576px){
+			margin-bottom: 10px;
+		}
+	}
+	&__title{
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 29px;
+		color: #0D0D0D;
+		margin-bottom: 20px;
+
+		@media (max-width: 576px){
+			margin-bottom: 10px;
+		}
+	}
+	&__descr{
+		a{
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 18px;
+			text-decoration-line: underline;
+			color: #FF0000;
+			font-style: italic;
+		&:hover{
+			cursor: pointer;
+			color: $link-color;
+			}
+		}
+	}
+}

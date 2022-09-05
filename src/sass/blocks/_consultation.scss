@@ -1,0 +1,38 @@
+.consultation{
+	min-height: 680px;
+	padding: 100px 0 92px 0;
+	background: url("../../img/free-consultation-block/bg2.jpg") center (center/cover) no-repeat;
+
+	&__desrc{
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 30px;
+		color: #FFFFFF;
+
+		@media (max-width: 576px){
+			font-size: 18px;
+		}
+	}
+
+	.error{
+		border: 1px solid red;
+	}
+	label.error{
+		color:#FFFFFF;
+		border: none;
+		text-align: center;
+		margin-top: -12px;
+		font-size: 13px;
+		margin-bottom: 5px;
+	}
+
+	@media (max-width: 992px){
+		padding: 50px 0 50px 0;
+	}
+	@media (max-width: 768px){
+		padding: 70px 0 0px 0;
+	}
+	@media (max-width: 576px){
+		padding: 50px 0 0px 0;
+	}
+}
